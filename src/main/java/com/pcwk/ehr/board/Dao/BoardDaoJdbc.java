@@ -1,22 +1,17 @@
 package com.pcwk.ehr.board.Dao;
 
-import java.sql.SQLException;
-import java.util.List;
-
-import javax.sql.DataSource;
-import org.springframework.jdbc.core.JdbcTemplate;         // JdbcTemplate
-import org.springframework.jdbc.core.RowMapper;           // RowMapper
-import java.sql.ResultSet;                              // ResultSet
-import java.sql.SQLException;                            // SQLException
-import java.util.List;                                   // List
-
+import com.pcwk.ehr.board.domain.BoardVO;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
 
-import com.pcwk.ehr.board.domain.BoardVO;
+import javax.sql.DataSource;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.List;
 
 @Repository
 public class BoardDaoJdbc implements BoardDao {

@@ -102,9 +102,9 @@
             headerToolbar: {
                 center: 'addEventButton'
             },
-            displayEventTime: false, // 시간 표시 안함
+            displayEventTime: false,
             eventBackgroundColor: '#990e17',
-            eventTimeFormat: { // 이벤트 시간 형식 설정
+            eventTimeFormat: {
                 hour: '2-digit',
                 minute: '2-digit',
                 meridiem: false
@@ -123,9 +123,9 @@
                         var scheduleTitle = prompt('일정 제목을 입력해주세요');
                         var scheduleContent = prompt('일정 내용을 입력해주세요');
                         var dateStr = prompt('시작 날짜를 YYYY-MM-DD 형식으로 입력해주세요');
-                        var startDate = new Date(dateStr + 'T00:00:00Z');  // UTC 시간으로 강제 변환
+                        var startDate = new Date(dateStr + 'T00:00:00Z');
                         var endDateStr = prompt('종료 날짜를 YYYY-MM-DD 형식으로 입력해주세요');
-                        var endDate = new Date(endDateStr + 'T23:59:59Z');  // UTC 종료 시간으로 설정 (하루 끝까지 포함)
+                        var endDate = new Date(endDateStr + 'T23:59:59Z');
 
                         if (!isNaN(startDate.valueOf()) && !isNaN(endDate.valueOf())) {
                             if (startDate <= endDate) {
