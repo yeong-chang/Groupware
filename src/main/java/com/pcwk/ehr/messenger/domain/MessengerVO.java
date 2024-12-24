@@ -15,7 +15,7 @@ public class MessengerVO {
     // 채팅방 이름
     String chatName;
 
-    // 그룹방 여부 (0: 개인방, 1: 그룹방)
+    // 그룹방 여부 (10: 개인방, 20: 그룹방)
     int chatGroupOrNot;
 
     // 채팅방 참여자 수

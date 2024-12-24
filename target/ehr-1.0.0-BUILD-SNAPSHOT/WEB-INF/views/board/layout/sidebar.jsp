@@ -73,6 +73,7 @@
 <%--                <li><a href="/board/hr.do" class="container-fluid">인사처 게시판</a></li>--%>
 <%--                <li><a href="/board/marketing.do" class="container-fluid">마케팅 부서 게시판</a></li>--%>
                 <li><a href="/calendar/show.do" class="container-fluid">캘린더</a></li>
+                <li><a href="/chat/room.do" class="container-fluid">메신저</a></li>
             </ul>
         </nav>
 </body>
